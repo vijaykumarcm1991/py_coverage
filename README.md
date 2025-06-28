@@ -8,16 +8,18 @@ Write a simple Python function (e.g., a calculator function).
 Create a pytest test file (test_script.py) to verify its correctness.
 
 Example function (script.py):
-
+```
 def add(a, b):
     return a + b
-
+```
 Example test file (test_script.py):
 
+```
 from script import add
 
 def test_add():
     assert add(2, 3) == 5
+```
 
 Task 2: Configure GitHub Actions for Automated Testing
 Create a .github/workflows/test.yml file.
