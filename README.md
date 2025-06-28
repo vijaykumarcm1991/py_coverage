@@ -28,9 +28,11 @@ Installs dependencies (pytest).
 Runs the tests automatically on every push and pull request.
 
 **Bonus Task**
+
 Extend the workflow to generate a code coverage report using pytest-cov.
 
 **Expected Outcome**
+
 The workflow should trigger automatically on every push and pull request.
 The tests should run successfully in the GitHub Actions environment.
 If any test fails, the workflow should return an error status.
